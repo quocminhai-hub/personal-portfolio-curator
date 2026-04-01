@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>THE CURATOR | Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-fixed-variant": "#8300b4",
+              "surface-container-high": "#201f1f",
+              "primary-fixed": "#00d2ff",
+              "surface": "#0e0e0e",
+              "secondary-container": "#9800d0",
+              "on-error": "#490006",
+              "surface-container-highest": "#262626",
+              "surface-dim": "#0e0e0e",
+              "tertiary-fixed-dim": "#809fff",
+              "background": "#0e0e0e",
+              "on-primary-container": "#004253",
+              "surface-variant": "#262626",
+              "outline": "#777575",
+              "surface-tint": "#72dcff",
+              "secondary": "#d575ff",
+              "on-secondary-fixed": "#58007a",
+              "on-error-container": "#ffa8a3",
+              "surface-container-low": "#131313",
+              "on-tertiary": "#002266",
+              "on-tertiary-fixed": "#001444",
+              "surface-container": "#1a1919",
+              "on-tertiary-container": "#001649",
+              "tertiary": "#84a2ff",
+              "outline-variant": "#494847",
+              "inverse-surface": "#fcf8f8",
+              "on-primary": "#004c5e",
+              "secondary-fixed-dim": "#eaaeff",
+              "surface-container-lowest": "#000000",
+              "secondary-fixed": "#f0c1ff",
+              "primary-container": "#00d2ff",
+              "inverse-on-surface": "#565554",
+              "inverse-primary": "#00687f",
+              "tertiary-container": "#7294fa",
+              "tertiary-dim": "#7899ff",
+              "on-surface-variant": "#adaaaa",
+              "primary": "#72dcff",
+              "error-dim": "#d7383b",
+              "on-secondary-container": "#fff5fc",
+              "tertiary-fixed": "#94aeff",
+              "on-surface": "#ffffff",
+              "surface-bright": "#2c2c2c",
+              "on-secondary": "#390050",
+              "on-primary-fixed-variant": "#004c5e",
+              "on-background": "#ffffff",
+              "error-container": "#9f0519",
+              "on-primary-fixed": "#002c38",
+              "secondary-dim": "#b90afc",
+              "primary-fixed-dim": "#00c3ed",
+              "primary-dim": "#00c3ed",
+              "on-tertiary-fixed-variant": "#00318c",
+              "error": "#ff716c"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #0e0e0e;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-glow {
+            background: radial-gradient(circle at 50% 50%, rgba(114, 220, 255, 0.15) 0%, rgba(213, 117, 255, 0.05) 50%, transparent 100%);
+        }
+        .neon-border-hover:hover {
+            box-shadow: 0 0 20px rgba(114, 220, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/60 backdrop-blur-xl dark:bg-black/60 shadow-[0_0_20px_rgba(0,210,255,0.1)]">
+<div class="flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
+<span class="text-2xl font-black tracking-tighter text-on-surface dark:text-neutral-100">THE CURATOR</span>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-neutral-400 font-medium hover:text-cyan-300 transition-colors duration-300" href="#about">About</a>
+<a class="text-neutral-400 font-medium hover:text-cyan-300 transition-colors duration-300" href="#services">Services</a>
+<a class="text-neutral-400 font-medium hover:text-cyan-300 transition-colors duration-300" href="#portfolio">Portfolio</a>
+<a class="text-neutral-400 font-medium hover:text-cyan-300 transition-colors duration-300" href="#contact">Contact</a>
+</div>
+<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary-container px-8 py-2.5 rounded-md font-bold text-sm tracking-tight hover:scale-95 transition-all duration-200">
+                Hire Me
+            </button>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center justify-center pt-24 overflow-hidden">
+<div class="absolute inset-0 hero-glow pointer-events-none"></div>
+<div class="max-w-screen-2xl mx-auto px-12 grid grid-cols-12 gap-8 items-center relative z-10">
+<div class="col-span-7">
+<h1 class="font-headline text-[5rem] font-extrabold leading-[0.95] tracking-tighter mb-8">
+                        Crafting <span class="text-primary">Digital</span><br/>Legacy Through<br/>Atmospheric Design.
+                    </h1>
+<p class="text-on-surface-variant text-xl max-w-xl mb-12 font-body leading-relaxed">
+                        A multidisciplinary creator specializing in high-end cinematic interfaces and digital experiences that command attention.
+                    </p>
+<div class="flex gap-6">
+<a class="bg-gradient-to-r from-primary to-primary-container text-on-primary-container px-10 py-4 rounded-md font-bold hover:shadow-[0_0_30px_rgba(114,220,255,0.4)] transition-all" href="#portfolio">
+                            View My Work
+                        </a>
+<a class="border border-outline-variant/30 text-on-surface px-10 py-4 rounded-md font-bold hover:bg-surface-container-high transition-all" href="#contact">
+                            Let's Talk
+                        </a>
+</div>
+</div>
+<div class="col-span-5 relative">
+<div class="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl relative group">
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent opacity-60 z-10"></div>
+<img alt="The Curator" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Professional editorial portrait of a creative professional in a dark studio setting with soft cyan rim lighting and a cinematic moody atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAM0HXYL5nZ9oDUtfPkBkcHmfrfBt9Dxt7hsTLCsw64TS3YQPk5y7znF7kHmxjiSV7CMzXpDbUUahQ-0Cs40donVvT4dEc3WOOEwn-fJXcoZ89FHlVi4ESXGYwnKREx6XFLLa-oBTfk7TllZSt6oZo6JlRvsVURs1rQyW0mUxMZDmkKoHI5wkw4FKSuL59LVRdpLEFfKvsRHvhNArxrgFe1-AtdozjUIcK-hUS97IMic6f0IKPurNYTDGNQxSyp7hJX6mKTp41lWD00"/>
+<div class="absolute -bottom-4 -right-4 w-64 h-64 bg-secondary/10 blur-[80px] rounded-full"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Me Section -->
+<section class="py-24 bg-surface-container-low" id="about">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="grid grid-cols-12 gap-12 items-center">
+<div class="col-span-4">
+<span class="font-headline text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Personal Bio</span>
+<h2 class="font-headline text-5xl font-extrabold tracking-tighter mb-6">Intentional<br/>Simplicity.</h2>
+</div>
+<div class="col-span-8">
+<div class="bg-surface-container-highest p-12 rounded-xl relative overflow-hidden">
+<div class="absolute top-0 right-0 p-8 opacity-5">
+<span class="material-symbols-outlined text-9xl">fingerprint</span>
+</div>
+<p class="text-on-surface-variant font-body text-xl leading-relaxed mb-6">
+                                With over a decade of experience in the digital landscape, I bridge the gap between technical precision and artistic expression. My approach is rooted in the belief that every pixel should serve a purpose, and every interaction should tell a story.
+                            </p>
+<p class="text-on-surface-variant font-body text-xl leading-relaxed">
+                                I don't just build websites; I curate digital environments that reflect the prestige and authority of the brands I partner with. Based in the intersection of design and code, I push the boundaries of what's possible on the web.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- My Services Section -->
+<section class="py-24 bg-surface" id="services">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="mb-20 text-center">
+<h2 class="font-headline text-5xl font-extrabold tracking-tighter mb-4">Core Expertise</h2>
+<div class="h-1 w-24 bg-primary mx-auto"></div>
+</div>
+<div class="grid grid-cols-3 gap-10">
+<!-- Service Card 1 -->
+<div class="bg-surface-container-low p-10 rounded-xl border border-outline-variant/10 hover:border-primary/40 transition-all duration-500 group">
+<div class="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-8 group-hover:bg-primary/20 transition-all">
+<span class="material-symbols-outlined text-primary text-3xl">auto_awesome</span>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-4">UI/UX Design</h3>
+<p class="text-on-surface-variant font-body leading-relaxed">
+                            Crafting high-fidelity, user-centric interfaces that blend aesthetic beauty with seamless functionality and editorial flow.
+                        </p>
+</div>
+<!-- Service Card 2 -->
+<div class="bg-surface-container-low p-10 rounded-xl border border-outline-variant/10 hover:border-secondary/40 transition-all duration-500 group">
+<div class="w-16 h-16 bg-secondary/10 rounded-lg flex items-center justify-center mb-8 group-hover:bg-secondary/20 transition-all">
+<span class="material-symbols-outlined text-secondary text-3xl">terminal</span>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-4">Web Development</h3>
+<p class="text-on-surface-variant font-body leading-relaxed">
+                            Building performant, scalable web applications using modern frameworks with a focus on clean code and robust architecture.
+                        </p>
+</div>
+<!-- Service Card 3 -->
+<div class="bg-surface-container-low p-10 rounded-xl border border-outline-variant/10 hover:border-tertiary/40 transition-all duration-500 group">
+<div class="w-16 h-16 bg-tertiary/10 rounded-lg flex items-center justify-center mb-8 group-hover:bg-tertiary/20 transition-all">
+<span class="material-symbols-outlined text-tertiary text-3xl">diamond</span>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-4">Brand Strategy</h3>
+<p class="text-on-surface-variant font-body leading-relaxed">
+                            Defining the visual and narrative soul of your brand to ensure a consistent and powerful presence across all digital touchpoints.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Portfolio Section -->
+<section class="py-24 bg-surface-container-low" id="portfolio">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="flex justify-between items-end mb-20">
+<div>
+<span class="font-headline text-secondary font-bold tracking-widest text-sm uppercase mb-4 block">Work</span>
+<h2 class="font-headline text-6xl font-extrabold tracking-tighter">Selected Works.</h2>
+</div>
+<p class="max-w-md text-on-surface-variant text-lg">
+                        A curation of projects where design meets purpose. Each piece represents a unique challenge solved through creative innovation.
+                    </p>
+</div>
+<div class="grid grid-cols-12 gap-12">
+<!-- Project 1 -->
+<div class="col-span-8 group cursor-pointer">
+<div class="relative aspect-video rounded-xl overflow-hidden mb-6">
+<img alt="Project One" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Modern minimalist architecture website interface with dark aesthetic, clean typography, and high-contrast photography of a concrete building" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAK45_e0So0is3VCR_skY3vSmIKUd9EQDmiZkmoEUXwBHWc1i8h1V0zsUtghX9AUtaJg3qFcX8bKw_FqCK9g6MShgYA3RwkA40f7M-sTUmJLoVNTxAs2CxPyHCoBvoLmQ39KaS0PR4BG8P5Dk42wP73lHaIxE2C2i3V_mWM2CvlJVARYl_Ugu9NMxOIWnnxjfNp2fg08ZysmjRCWBiLEsMct0DTRdPfJT1j5S86Om5yRQVTbDBGMHp49hHEAn4AMfVvrq0WjR0ah_Ub"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-sm">
+<span class="bg-surface text-on-surface px-8 py-3 rounded-full font-bold">View Project</span>
+</div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h3 class="font-headline text-3xl font-bold mb-2">The Monolith</h3>
+<p class="text-on-surface-variant uppercase tracking-widest text-xs font-bold">Architecture • UX Design</p>
+</div>
+<span class="text-on-surface-variant text-sm">2023</span>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="col-span-4 group cursor-pointer mt-24">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden mb-6">
+<img alt="Project Two" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Luxury timepiece e-commerce app design with gold accents on a deep obsidian background and macro photography of watch gears" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAW47gI4JfBPE_wuO8L4f3N7cip8rigcgGUM3P9rr5ECNM3n4kpOJGzd7zbOfZ_9dnQ4urOjAyLL7MAF99U2FZMvIzMtHQEZdwIQE04sv1OoyDAHd3lrARbSSX1ZHqrKu0PuE7KNo9osz1CUomiROgMkGTdaXzZn2njiZyVnORTVBFYW4fvq6P1OHhesb23rjbfilEYyyE1L-PTcyBorUWs-wZo-f1ZqAz5mMYbiLlV3pt1TISpwI8cmrKFSeukHpP9Ks2DnZfCIFii"/>
+<div class="absolute inset-0 bg-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-sm">
+<span class="bg-surface text-on-surface px-8 py-3 rounded-full font-bold">View Case Study</span>
+</div>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-2">Aura Chronos</h3>
+<p class="text-on-surface-variant uppercase tracking-widest text-xs font-bold">E-Commerce • Branding</p>
+</div>
+<!-- Project 3 -->
+<div class="col-span-6 group cursor-pointer -mt-12">
+<div class="relative aspect-square rounded-xl overflow-hidden mb-6">
+<img alt="Project Three" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Abstract digital art platform interface with neon gradients, glowing orbs, and fluid layouts against a dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBU1gPPSrMchm3ovAXstGvAcco3W6cRQDsNq2clGBYCjNDhwh_eaBmhoJEyHoHiPwCgRMnKMH5S6wOwDCuzoW10bER2Z1Gi1Xcx1boy8iaSgbhMYLoqeiKdJCYsXAXa7Bu73C7J5U_03nKfnpTRL3Hifs08lXr9H613kZGOGVN90zY49ovyr9kQI2o8cnRtxddy3ZSjNp-zF04pmigHoukPm2nF6jnuEUfSH0phttc0vZsL0C4Mn23WC-6lyrhghYykLltVXLzkomVw"/>
+<div class="absolute inset-0 bg-tertiary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-sm">
+<span class="bg-surface text-on-surface px-8 py-3 rounded-full font-bold">Launch Site</span>
+</div>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-2">Nebula Labs</h3>
+<p class="text-on-surface-variant uppercase tracking-widest text-xs font-bold">Web3 • Development</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-32 bg-surface" id="contact">
+<div class="max-w-4xl mx-auto px-12 text-center">
+<h2 class="font-headline text-6xl font-extrabold tracking-tighter mb-8">Ready to curate your<br/><span class="text-secondary">next project?</span></h2>
+<p class="text-on-surface-variant text-xl mb-16 font-body">
+                    Currently accepting select commissions for 2024. Reach out and let's create something extraordinary.
+                </p>
+<form class="space-y-8 text-left bg-surface-container-low p-12 rounded-xl shadow-2xl relative overflow-hidden">
+<div class="absolute -top-24 -left-24 w-64 h-64 bg-primary/5 blur-[100px]"></div>
+<div class="absolute -bottom-24 -right-24 w-64 h-64 bg-secondary/5 blur-[100px]"></div>
+<div class="grid grid-cols-2 gap-8 relative z-10">
+<div class="space-y-2">
+<label class="font-label text-xs uppercase tracking-widest text-on-surface-variant font-bold ml-1">Your Name</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-md py-4 px-6 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all placeholder:text-neutral-700" placeholder="John Doe" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="font-label text-xs uppercase tracking-widest text-on-surface-variant font-bold ml-1">Email Address</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-md py-4 px-6 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all placeholder:text-neutral-700" placeholder="hello@curator.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2 relative z-10">
+<label class="font-label text-xs uppercase tracking-widest text-on-surface-variant font-bold ml-1">Project Message</label>
+<textarea class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-md py-4 px-6 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all placeholder:text-neutral-700" placeholder="Tell me about your vision..." rows="5"></textarea>
+</div>
+<button class="w-full bg-gradient-to-r from-secondary to-secondary-container text-on-secondary py-5 rounded-md font-black text-lg tracking-widest uppercase hover:shadow-[0_0_40px_rgba(213,117,255,0.3)] transition-all" type="submit">
+                        Send Transmission
+                    </button>
+</form>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-24 px-12 bg-surface dark:bg-[#0e0e0e]">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 w-full max-w-screen-2xl mx-auto">
+<div>
+<span class="text-lg font-black text-on-surface dark:text-neutral-100">THE CURATOR</span>
+<p class="font-headline tracking-widest text-[10px] uppercase font-bold text-neutral-500 mt-2">© 2024 THE CURATOR. ALL RIGHTS RESERVED.</p>
+</div>
+<div class="flex gap-12">
+<a class="font-headline tracking-widest text-[10px] uppercase font-bold text-neutral-500 hover:text-cyan-300 transition-all duration-300" href="#">Twitter</a>
+<a class="font-headline tracking-widest text-[10px] uppercase font-bold text-neutral-500 hover:text-cyan-300 transition-all duration-300" href="#">LinkedIn</a>
+<a class="font-headline tracking-widest text-[10px] uppercase font-bold text-neutral-500 hover:text-cyan-300 transition-all duration-300" href="#">Instagram</a>
+<a class="font-headline tracking-widest text-[10px] uppercase font-bold text-neutral-500 hover:text-cyan-300 transition-all duration-300" href="#">GitHub</a>
+</div>
+</div>
+</footer>
+</body></html>
